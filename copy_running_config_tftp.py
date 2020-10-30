@@ -8,9 +8,9 @@ from netmiko import ConnectHandler
 print("Please wait seconds. Connecting ... \n")
 
 my_device = {
-        "host": "192.168.47.2", #cisco 2811
-        "username": "yue",
-        "password": "123",
+        "host": "192.168.xxx.xxx", #cisco 2811
+        "username": "xxx",
+        "password": "xxx",
         "device_type": "cisco_ios",
         # "global_delay_factor": 2,
     }
@@ -19,7 +19,7 @@ net_connect = ConnectHandler(**my_device)
 net_connect.enable()
 
 print(net_connect.find_prompt())
-# cmd ="copy running-config tftp:/192.168.47.47/BP_hackthon_2811-confg"
+# cmd ="copy running-config tftp:/192.168.xxx.xxx/BackUp_cisco_2811_config"
 cmd ="copy running-config tftp:"
 result = net_connect.send_command(
     cmd,
@@ -27,7 +27,7 @@ result = net_connect.send_command(
     )
     # Address or name of remote host
     # Destination filename
-result+=net_connect.send_command("192.168.47.47",expect_string=r"Destination filename")
+result+=net_connect.send_command("192.168.xxx.xxx",expect_string=r"Destination filename")
 result+=net_connect.send_command("R1_config",expect_string=r"#")
 
 print(result)
