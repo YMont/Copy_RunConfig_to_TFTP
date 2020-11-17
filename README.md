@@ -7,4 +7,5 @@ you can use python script instead of using console to connect network's device
 `pip install netmiko`
 
 ------
-YMont
+###### reference
+[from article "Kirk Byers"](https://pynet.twb-tech.com/blog/automation/netmiko-what-is-done.html)
