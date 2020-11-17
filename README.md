@@ -8,4 +8,4 @@ you can use python script instead of using console to connect network's device
 
 ------
 ###### reference
-[from article "Kirk Byers"](https://pynet.twb-tech.com/blog/automation/netmiko-what-is-done.html)
+[from author "Kirk Byers"](https://pynet.twb-tech.com/blog/automation/netmiko-what-is-done.html)
