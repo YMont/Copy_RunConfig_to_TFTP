@@ -1,8 +1,8 @@
 # Cisco with Netmiko
 
 ## command: copy running-config tftp
-you can use python script instead of using console to connect network's device<br>
-使用Python第三方庫Netmiko去下達命令至Cisco Switch/Router Interface
+You can use python script instead of using console to connect network's device<br>
+使用Python第三方庫Netmiko去下達命令至Cisco Switch/Router Interface，進而取代使用Console的方法
 
 ## installation
 `pip install netmiko`
