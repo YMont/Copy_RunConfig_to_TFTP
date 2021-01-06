@@ -7,10 +7,10 @@ you can use python script instead of using console to connect network's device<b
 ## installation
 `pip install netmiko`
 
-------
+---
 ###### reference
 [from author "Kirk Byers"](https://pynet.twb-tech.com/blog/automation/netmiko-what-is-done.html)
-
+---
 ### Getting Started:
 
 #### Import module
@@ -60,5 +60,5 @@ print("total time: {}".format(endtime - starttime))
 net_connect.disconnect(
 ```
 ---
-YMont
+YMont<br>
 Python for Network Engineers
