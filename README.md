@@ -10,6 +10,7 @@ you can use python script instead of using console to connect network's device<b
 ---
 ###### reference
 [from author "Kirk Byers"](https://pynet.twb-tech.com/blog/automation/netmiko-what-is-done.html)
+
 ---
 ### Getting Started:
 
